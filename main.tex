@@ -103,7 +103,7 @@ Here we present measurements and simulations demonstrating: (1) filamentary magn
 (d) Proton dose profile along the purple line in (b).
 (e) Schematic pattern of the electric (radial arrows) and magnetic (circular arrows) field lines in the zone delimited by the blue box in (b), overlaid on the resulting (simulated) proton dose modulation (pseudocolor map). 
 (f-g) Proton radiographs obtained with a PET foil as target 2}. On top of the small-scale circular filaments seen in (a-c), one observe longitudinal proton dose streaks extending from the central laser spot. 
-(h) \textcolor{blue}{Proton dose profile along the purple line in (f).}
+(h) \textcolor{blue}{Proton dose profile along the red line in (f).}
 All frames, for either the Al or PET foil, corresponding to different energies of the probing protons, and hence to different times-of-flight between target 1 and target 2 (as indicated above each frame), are taken from a single shot. All spatial scales refer to the target 2 plane.
 }
 \end{figure*}
@@ -132,7 +132,7 @@ The solid and dashed lines corresponds to $\log(\Lambda)=2$ (\emph{i.e.} represe
 \end{figure*}
 
 We will now show that conditions are met, in the plasma  expanding from the target surface, and far from the focal spot, for the triggering of the collisionless \textcolor{blue}{current filamentation} instability due to the recirculation of the fast electrons, and leading to \textcolor{blue}{electromagnetic structures such as those illustrated in Fig.~\ref{fig:radio}(e). In order to investigate the large-scale hot electron dynamics in a self-consistent way, we have performed a 2D particle-in-cell (PIC) simulation using the code \textsc{calder} \cite{NF_Lefebvre_2003}, resolving the laser plasma interaction (and related collisional and ionization processes) in the plane shown in Fig.~\ref{fig:xp}, with half-reduced Al density to alleviate the computational effort (see Methods).}
-We see in Fig.~\ref{fig:pic}(a) that, already after $1.44\,\rm ps$ of laser plasma interaction, \textcolor{blue}{the plasma has longitudinally expanded a distance $>10\,\rm \mu m$, and that magnetic modulations have developed in the low-density regions [Fig.~\ref{fig:pic}(b) and lineout in Figs.~S7(a,b) in Supplementary Information]. At the target backside ($x>44\,\rm \mu m$), they extend up to $y \sim 100\,\rm \mu m$ from the laser spot, with a typical wavelength $\lambda_p \sim 6\,\rm \mu m$.}
+We see in Fig.~\ref{fig:pic}(a) that, already after $1.44\,\rm ps$ of laser plasma interaction, \textcolor{blue}{the plasma has longitudinally expanded on a distance $>10\,\rm \mu m$, and that magnetic modulations have developed in the low-density regions [Fig.~\ref{fig:pic}(b) and lineout in Figs.~S7(a,b) in Supplementary Information]. At the target backside ($x>44\,\rm \mu m$), they extend up to $y \sim 100\,\rm \mu m$ from the laser spot, with a typical wavelength $\lambda_p \sim 6\,\rm \mu m$.}
 
 The electron phase space in the vicinity of the magnetic filaments at $y = 117\,\rm \mu m$ [see Fig.~\ref{fig:pic}(c)] evidences the superposition of the expanding hot electrons [for  $y > 300c/\omega_0$ of momentum $\vert p_x \vert \lesssim 10 m_ec$] with an electron return current for $-20 m_ec < p_x< -10\,\rm m_e c$.
 According to Refs.~\cite{POP_Ren_2006, PRL_Gode_2017}, 
@@ -146,7 +146,7 @@ Additionally, a radial electric field resulting from a charge imbalance between 
 \begin{align} 
 E_p\sim m_ec\omega_{ph} /(4\pi^2\gamma_h^{3/2} e) \label{eq:ep} \, .
 \end{align}
-Finally, the expected magnetic field loops of alternative polarity are focusing or defocusing for the probing protons according to the filament's current sign. This contrasts with the electric field  topology, which scales as the scare of the magnetic field and is therefore always focusing. 
+Finally, the expected magnetic field loops of alternative polarity are focusing or defocusing for the probing protons according to the filament's current sign. This contrasts with the electric field  topology, which  is  always focusing as it results from magnetic pressure. 
 The relative electric and magnetic contribution to the proton deflections depends on the value of dominant magnetic wavelength (See Supplementary information). 
 
 In order to relate the magnetic-field wavelength observed on the Aluminum radiographs and the observed  in the simulation as in Fig. \ref{fig:pic}(b), and thus verify if the instability observed is indeed leading to the magnetic loops experimentally observed in Fig.~\ref{fig:radio} (dark spot in the radiographs), we have to analytically disentangle the impact of the  reduced-geometry of our simulation on the hot electron dynamics. 
@@ -162,7 +162,7 @@ Making use of Eqs.~\eqref{eq:lp}, \eqref{eq:bp} and \eqref{eq:ep}, we obtain $\l
 \textcolor{red}{
 In the experiment ($D=2$, $\delta=1$) for which the time of first experimental observation is $\sim 4$ ps, we obtain
 $\lambda_p \sim 58 \,\rm \mu m$ which is consistent with the size of the structures observed in Fig.~\ref{fig:radio}(a-c), and   $B_p\sim 24\,\rm T$, also comparable with the experimental estimates of $\sim 10\,\rm T$ (see section Methods). As for the electric field amplitude, we obtain $E_p \sim 1.5\,\rm GV.m^{-1}$ which is enough for affecting  the radiographs [as shown in Fig.~\ref{fig:radio}(e), see Supplementary Information] by fading away the magnetically-defocusing loops and increasing the contrast of the focusing loops.
-}
+Finally, at late time and far from the irradiated region, one expects hot electron recirculation and target expansion to occur on both sides of the target, possibly leading to two independent sets of electromagnetic structures superimposed, by the probing protons, on the detector.}
 
 The  2D PIC-MHD simulation lying in the target plane, therefore neglecting the expansion direction, also allows us to address the radial spreading dynamics of the hot electrons and the subsequent resistive instability that can affect them. As the electrons move radially away from their generation region into the dense foil, their momentum distribution becomes ``cold'' in the poloidal direction, while it stays ``hot'' along the other directions (see Fig.~5 in Supplementary Information). A large hot electron pressure anisotropy is therefore driven in $\sim 0.5\,\rm ps$ in our 2D PIC-MHD simulation, although its final amount may be overestimated due to the target expansion in the $x$-direction (and the associated electron-to-ion momentum-transfer which should occur in $\sim L/2c_s \sim 0.5\,\rm ps$ \cite{PRE_Mora_2005}), neglected in our 2D PIC-MHD simulation. 
 \begin{figure*}
@@ -178,7 +178,8 @@ The  2D PIC-MHD simulation lying in the target plane, therefore neglecting the e
 (a) Magnitude of $B_\perp=(B_x^2+B_y^2)^{1/2}$ (in Teslas) at time $t=3.28\,\rm ps$ for $\log \Lambda=20$ (\emph{i.e.} modeling an insulator, $y<0$) and $\log\Lambda=2$ (\emph{i.e.}, modeling a conductor, $y>0$).
 (b) Simulated radiographs from 8 MeV probing protons in a 
 $3\,\rm \mu m$ thick target with B-fields given by (a), see Methods.
-(c) Modeled radiographs with superimposed filaments extending in the z direction over $L_p = 48\, \mu$m, see Methods. The $B$ field profile used for the reconstruction is poloidal around each filament center following Fig. \ref{fig:radio}(e) with $\lambda_B = 120\,\rm \mu m$, and with a radial profile given by Eq. \eqref{eq:bloop} with $B_0=10\,\rm T$ and $a = 60\,\rm \mu m$.
+\textcolor{red}{(c) Modeled radiographs with superimposed filaments extending in the z direction over $L_p = 48\, \mu$m, see Methods.} The $B$ field profile used for the reconstruction is poloidal around each filament center following Fig. \ref{fig:radio}(e) with $\lambda_B = 120\,\rm \mu m$, and with a radial profile given by Eq. \eqref{eq:bloop} with $B_0=10\,\rm T$ and $a = 60\,\rm \mu m$.
+Two sets of the electromagnetic profiles have been placed (\textcolor{red}{separated by thee microns}) on the front and the rear side of the target to model both expanding side of the target.
 }
 \end{figure*}
 %
@@ -192,8 +193,9 @@ the calculated growth rate [dashed line in Fig.~\ref{fig:pic}(e)] is $\sim 6$ ti
 After saturation of  the resistive filamentation, the hot electrons current contribution vanishes due to dilution, so that the B-field structures are solely carried by the cold electron population and evolve due to magnetic diffusion  over a  timescale $\sim \mu_0 \sigma \lambda_\phi^2 > 30\,\rm ps$ for $ \ge 50\,\rm eV$ targets, consistently with experimental observations. This is why, although the latest time of the PIC-MHD simulation ($3.28\,\rm ps$) is still early in comparison to what is probed in the experiment,  we do not expect significant evolution of the fields inside the target over a few $10\,\rm ps$.
 
 Hence, the proton synthetic radiographs, shown in Figs.~\ref{fig:kxy}(b,c), making use of the fields resulting from our PIC-MHD simulations, should be qualitatively representative of the expected radiographs (see Methods). Indeed,  large radial structures similar with the one observed experimentally for the PET target [see Figs.~\ref{fig:radio}(f,g)],  are obtained. Note that the scattering of the probing protons off the aluminum dense foil ions have been accounted for (see Methods and Supplementary Information) and is mainly responsible of the smoothed rendering of Fig.~\ref{fig:kxy}(b) compared to \ref{fig:kxy}(a).
- %
-Fig. \ref{fig:kxy}(c) corresponds to proton ray tracing simulations where the fields resulting from the PIC-MHD simulations has been juxtaposed to the E and B fields expected in the expanding plasma (see method). 
+ \textcolor{red}{
+Fig. \ref{fig:kxy}(c) corresponds to proton ray tracing simulations where the fields resulting from the PIC-MHD simulations has been juxtaposed to the E and B fields expected in both the front and rear side expanding plasma (see method). 
+}
 Overall, Figs.~\ref{fig:kxy}(a,b) shows that for low resistivity, the expanding plasma contribution is dominant over the resistive traces, corresponding qualitatively to the Aluminum radiographs of Figs.~\ref{fig:radio}(a,c). However, for larger resistivity, as in the PET target [Figs.~\ref{fig:radio}(c,d,e)], both the resistive and collisionless instability  contributions can be characterized experimentally  leading to strong constrains on the various field contributions (see Methods).
 \textcolor{red}{
 The number of radial structures observed in the experimental results [Fig.~\ref{fig:radio}(f)] is lower than in    our synthetic radiograph [Fig. \ref{fig:kxy}(b)] by, roughly a factor $\sim 2$, which  be attributed to the uncertainty that remains on the initial hot electron parameters. The dominant magnetic wavelength of the resistive filamentation depends on the hot electron density which is   strongly dependent on the target properties at  early times where   solid state or strongly coupled plasma physics is at stake. 
@@ -249,7 +251,7 @@ Assuming the ions at rest,  the hot electron current contribution is obtained by
 The  hot electrons are described by a  multi-Maxwellian distribution, neglecting the relativistic effects.
 After a lengthy algebra and  a third-order Taylor development of the plasma dispersion, one obtains the linear growth rate as a function of the magnetic-fluctuation wavevetor and of the hot and resistive electrons parameters  (see Supplementary Information).
 In order to compare the growth of the resistive instability in each PIC-MHD simulation, \emph{i.e.} corresponding to a conductor  [using $\log \Lambda=2$] and  an insulator medium [using $\log \Lambda=20$], we  extracted the plasma parameters from each simulation. 
-in the case $\log \Lambda=2$, [Fig. \ref{fig:kxy}(a), right], the radial drift  poloidal temperature and $x$-aligned temperature at $t=0.5\,\rm ps$ reads
+In the case $\log \Lambda=2$, [Fig. \ref{fig:kxy}(a), right], the radial drift  poloidal temperature and $x$-aligned temperature at $t=0.5\,\rm ps$ reads
 $T_\theta \simeq 10\,\rm keV$ and 
 $T_x \sim 300$ keV, respectively, with $n_h\simeq 0.02 \times 10^{21}\,\rm cm^{-3}$ (see the dashed black lines of Figs.~5(a-e) in Supplementary Information). The case with $\log \Lambda =20$, [Fig.~\ref{fig:kxy}(a), left] gives $T_\theta \simeq 13\,\rm keV$,
 $T_x \sim 300\,\rm keV$ and $n_h\simeq 0.02 \times 10^{21}\,\rm cm^{-3}$. 
@@ -283,11 +285,13 @@ The values used for the parameters $a$ and $B_0$ stem from the experimental anal
 }
 
 \textcolor{red}{
-To evaluate the experimental modulation of the proton dose on the RCF, $\Delta N/N_0$, we measured the optical density (OD) on the films, from which we deduced the dose using the calibration given by Ref. \cite{RSI_Chen_2016}. Here $N_0$ is the reference proton dose of the undeflected beam, \emph{i.e.} outside of the modulated area. In order to retrieve  $B_\theta(r)$ from the experimental data, we run \textsc{ilz} simulations for a set of values for $a$ and $B_0$. In figure \ref{fig:radio}(d), the black dotted curve and the blue dash curve are the synthetic modulations of the relative dose that are the most consistent with the experimental lineout (see the purple plain curve). They correspond to the  sets of values : $a=50\,\rm \mu m$ and $B_0=10\,\rm T$ (for the black dotted curve) and $a=25\,\rm \mu m$ and $B_0=7\,\rm T$ (for the blue dashed curve).
-}
-The magnetic field maps of the synthetic proton images shown in Fig.~\ref{fig:kxy}(c) result from the juxtaposition of the ones calculated directly from the PIC-MHD simulated magnetic \textcolor{red}{and electric} fields and of the ones resulting from the magnetic field loops together with the radial E-fields detailed just above. 
-\textcolor{red}{
-In other terms, during the \textsc{ilz} simulation, the protons will probe first the fields of the PIC-MHD simulation. Then they will probe the field composed of magnetic loops and \textcolor{red}{radial electric field}, which represents the expanding plasma contribution. \textcolor{red}{Note that the thickness of the expanding plasma has been taken equal to $ 48 \ \mu m $, which correponds to $c_s t $, t is the probing time}. Finally we convolve the whole resulting proton image with a Gaussian function as already discussed above. 
+To evaluate the experimental modulation of the proton dose on the RCF, $\Delta N/N_0$, we measured the optical density (OD) on the films, from which we deduced the dose using the calibration given by Ref. \cite{RSI_Chen_2016}. Here $N_0$ is the reference proton dose of the undeflected beam, \emph{i.e.} outside of the modulated area. In order to retrieve  $B_\theta(r)$ from the experimental data, we run \textsc{ilz} simulations for a set of values for $a$ and $B_0$. In figure \ref{fig:radio}(d), the black dotted curve and the blue dash curve are the synthetic modulations of the relative dose that are the most consistent with the experimental lineout (see the purple plain curve). They correspond to the  sets of values : $a=50\,\rm \mu$m and $B_0=10\,\rm T$ (for the black dotted curve) and $a=25\,\rm \mu$m and $B_0=7\,\rm T$ (for the blue dashed curve).
+%
+The magnetic field maps of the synthetic proton images shown in Fig.~\ref{fig:kxy}(c) result from the juxtaposition of the ones calculated directly from the PIC-MHD simulated magnetic \textcolor{red}{and electric} fields and of the ones resulting from the magnetic field loops together with the radial E-fields detailed just above, and placed on both sides of the target.
+The choice has been made to place the field structures so that  magnetic field loops of opposite polarity on the each side of the target.
+%
+In other terms, during the \textsc{ilz} simulation, the protons will probe the field composed of magnetic loops and \textcolor{red}{radial electric field}, which represents the front side expanding plasma contribution. Then they will probe  the fields of the PIC-MHD simulation and finally the rear side expanding plasma contribution.  Note that the thickness of the expanding plasma has been taken equal to $ 48 \, \mu$m , which correponds to $c_s t $, t is the probing time. Finally we convolve the whole resulting proton image with a Gaussian function as already discussed above. 
+The synthetic radiographs obtained by shifting in the ($y$,$z$)-plane the two field structures on each side of the target is illustrated in Fig. S9 of the supplementary information for completeness. 
 }
 
 \begin{acknowledgments}
